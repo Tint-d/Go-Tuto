@@ -11,6 +11,8 @@ func main() {
 
 	arr := []int{1, 2, 3, 4, 5}
 
+	abc := "abc"
+	fmt.Println(abc)
 	arrLastIndex := len(arr) - 1
 
 	slices := arr[:arrLastIndex+1]
